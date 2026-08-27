@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Test and coverage output
+coverage/
+.nyc_output/
+*.lcov
+*.lcov.info
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+.local/
+.local-config/
+
+# TypeScript cache
+.tsx-cache/
+*.ts.map
+*.js.map
+
+# Node runtime artifacts
+.npm/
+.yarn/
+.pnpm-store/
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Editor and IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.editorconfig
+.project
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Vend Ghosts local artifacts
+shift-reports/
+save-data/
+*.local.json
+*.local.yaml
+*.local.yml
